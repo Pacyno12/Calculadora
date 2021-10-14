@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="funciones.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="d-flex col-12 justify-content-center p-5 gap-4 flex-wrap"></div>
+                    <button type="button" class="btn btn-primary" id="suma" onclick="suma()">Suma</button>
+                    <button type="button" class="btn btn-primary" id="resta" onclick="resta()">Resta</button>
+                    <button type="button" class="btn btn-primary" id="division" onclick="division()">Division</button>
+                    <button type="button" class="btn btn-primary" id="multiplicacion" onclick="multiplicacion()">Multiplicacion</button>
+                    <button type="button" class="btn btn-primary" id="raiz" onclick="raiz()">Raiz</button>
+                    <button type="button" class="btn btn-primary" id="seno" onclick="seno()">Seno</button>
+                    <button type="button" class="btn btn-primary" id="coseno" onclick="coseno()">Coseno</button>
+                    <button type="button" class="btn btn-primary" id="tangente" onclick="tangente()">Tangente</button>
+                    <button type="button" class="btn btn-primary" id="contangente" onclick="contangente()">Cotangente</button>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-flex col-12 justify-content-center col-lg-12 gap-3 p-4">
+                    <h1>Primer numero </h1>
+                    <input type="number" id="num1">
+                </div>
+                <div class="d-flex col-12 justify-content-center col-lg-12 gap-3 p-4">
+                    <h1>Segundo numero </h1>
+                    <input type="number" id="num2">
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="d-flex col-12 justify-content-center p-5 gap-4 flex-wrap">
+                        <h2>El resultado es: <span id="txtResultado"></span> </h2>
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
